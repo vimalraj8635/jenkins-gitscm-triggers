@@ -1,6 +1,13 @@
-// Save this file as HelloWorld.java
-public class HelloWorld {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        // Define two integer variables
+        int number1 = 10;
+        int number2 = 20;
+        
+        // Calculate the sum
+        int sum = number1 + number2;
+        
+        // Print the result
+        System.out.println("The sum is: " + sum);
     }
 }
